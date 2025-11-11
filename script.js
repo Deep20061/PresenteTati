@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Check if today is December 11, 2025
     const today = new Date();
-    const targetDate = new Date('2025-11-11');
+    const targetDate = new Date('2025-12-11');
 
     if (today.toDateString() === targetDate.toDateString()) {
         button.disabled = false;
