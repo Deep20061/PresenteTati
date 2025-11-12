@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const letter = document.getElementById('letter-content');
     const music = document.getElementById('background-music');
 
-    // Check if today is December 11, 2025
+    // Check if today is November 11, 2025
     const today = new Date();
     const targetDate = new Date('2025-11-11');
 
