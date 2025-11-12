@@ -7,6 +7,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const today = new Date();
     const targetDate = new Date('2025-11-11');
 
+    console.log('Data de hoje:', today.toDateString()); // Para debug: veja no console
+    console.log('Data alvo:', targetDate.toDateString());
+
     if (today.toDateString() === targetDate.toDateString()) {
         button.disabled = false;
         button.addEventListener('click', function() {
